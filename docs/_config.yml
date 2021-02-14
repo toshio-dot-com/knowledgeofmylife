@@ -9,7 +9,7 @@ timezone: Asia/Tokyo
 encording: utf-8
 collections:
   docs:
-    permalink: /:path
+    permalink: "/:collection/:path/"
     output: true
 defaults:
 - scope:
