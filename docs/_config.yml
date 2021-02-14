@@ -5,9 +5,11 @@ theme: jekyll-theme-cayman
 description: Transform your plain text into static websites and blogs
 url: https://github.com/toshio-dot-com/knowledgeofmylife
 repository: https://github.com/toshio-dot-com/knowledgeofmylife
+timezone: Asia/Tokyo
+encording: utf-8
 collections:
   docs:
-    permalink: "/:collection/:path/"
+    permalink: /:path
     output: true
 future: true
 plugins:
