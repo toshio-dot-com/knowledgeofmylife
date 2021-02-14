@@ -11,6 +11,12 @@ collections:
   docs:
     permalink: /:path
     output: true
+defaults:
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
 future: true
 plugins:
 - jekyll-avatar
