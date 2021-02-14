@@ -1,0 +1,6 @@
+- title : Business&Accounting
+  label : Business
+  sections :
+    - name  : Business
+      pages :
+        - sample
