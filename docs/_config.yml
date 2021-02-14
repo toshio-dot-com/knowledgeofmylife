@@ -1,7 +1,7 @@
 ---
 version: 4.2.0
 name: Knowledge of my life
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 description: Transform your plain text into static websites and blogs
 url: https://github.com/toshio-dot-com/knowledgeofmylife
 repository: https://github.com/toshio-dot-com/knowledgeofmylife
@@ -35,6 +35,3 @@ kramdown:
 sass:
   style: compressed
 strict_front_matter: true
-sidebar:
-  position: left
-  display: always
