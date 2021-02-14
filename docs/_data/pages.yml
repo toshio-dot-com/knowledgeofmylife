@@ -1,0 +1,473 @@
+
+- title : Ableton Live & Max for Live
+  label : Live
+  sections :
+    - name  : My Devices
+      pages :
+        - clipselector
+
+    - name  : Tips
+      pages :
+        - 9to10
+        - selected-parameter
+        - m4l-bpatcher-namespace
+        - knob-mapping
+        - automapping-index
+        - dbfs
+        - cuemix-cuevolume
+
+    - name : Max for Live Basics
+      pages :
+        - m4l-freeze
+        - m4l-path
+        - m4l-id
+        - m4l-object
+        - m4l-observer
+
+    - name  : Parameter インスペクタ関係
+      pages :
+        - store-parameter
+        - initialize
+        - initial-timing
+        - pattr-name
+        - m4l-bpatcher-pattr
+        - pattr-range
+        - m4l-bpatcher-pattr-nobind
+
+    - name : Max関連
+      label : Max
+      pages:
+        - separate-samplingrate
+        - patch-share
+
+    - name  : 関連
+      label : Memo
+      pages:
+        - log-power
+
+- title : "Cycling '74 Max"
+  label : Max
+  sections:
+    - name : Tips
+      pages :
+        - constant
+        - separate-samplingrate
+        - patch-share
+
+    - name  : Parameter インスペクタ関係
+      label : Live
+      pages : 
+        - store-parameter
+        - initialize
+        - initial-timing
+        - m4l-bpatcher-pattr
+        - pattr-range
+
+
+    - name : poly~ & bpatcher Tricks
+      pages:
+        - poly-summary
+        - bpatcher-tips
+        - poly-individual-signal
+        - bpatcher-poly-interface
+        - poly-mc-problem
+
+    - name  : 関連
+      label : Memo
+      pages:
+        - log-power
+
+
+
+
+- title    : github pages & Jekyll
+  label    : Jekyll
+  sections :
+    - name  : github pagesの管理
+      pages :
+        - dlopen-openssl1.0.0
+        - update-github-page
+        - fix-3.4.3
+
+    - name  : Jekyllの導入
+      pages :
+        - rbenv-homebrew
+        - Ruby-research
+        - rbenv-install
+        - rbenv-usage
+        - bundle-usage
+        - jekyll-usage
+        - github-pages-debug
+        - github-pages-generator
+        - worth-bundle-install
+
+    - name  : Install frameworks
+      pages :
+        - jekyll-bootstrap4-submodule
+        - mathjax-install
+        - jekyll-bootstrap-install
+
+    - name  : Jekyll variables
+      pages : 
+        - collection-variable
+        - site-variables
+        - display-value
+
+    - name  : Tips
+      pages :
+        - jekyll-syntaxhighlight
+        - cite-include
+        - jekyll-atom
+        - liquid-raw
+        - page-menu
+        - post-layout
+
+- title    : Python
+  label    : Python
+  sections :
+    - name  : 環境構築
+      pages : 
+        - homebrew-pyenv-anaconda-local
+        - homebrew-pyenv-venv-tf-keras
+
+    - name : 関連記事
+      label : Mac
+      pages :
+        - homebrew-pyenv
+
+
+
+
+- title : CMake
+  label : CMake
+  sections : 
+    - name  : "Basic"
+      pages : 
+        - step1
+        - step2
+        - step3
+        - step4
+
+
+- title    : bootstrap
+  label    : Bootstrap
+  sections :
+    - name  : Tips
+      pages :
+        - sass-customize
+        - bootstrap-landing-page-header
+        - panel-collapse
+
+    - name  : 関連記事
+      label : Jekyll
+      pages : 
+        - cite-include
+        - jekyll-bootstrap-install
+        - jekyll-bootstrap4-submodule
+
+
+
+- title    : Keyboard
+  label    : QMK
+  sections :
+    - name  : Tips
+      pages :
+        - key-layout
+        - key-customize
+        - layerkey
+        - build-qmk-toolbox
+        - write-vitamins-avrdude
+        - recover-avr
+        - build-vitamins
+
+
+
+- title : Docker
+  label : Docker
+  sections :
+    - name  : Basic
+      pages : 
+        - basic-container
+        - basic-container-usage
+        - basic-volatility-change
+        - basic-commit-container
+        - basic-remove-image
+        - basic-dockerfile
+        - basic-bind-mount
+        - basic-docker-compose
+        - basic-bridge
+    - name : ASP.NET Core
+      pages : 
+        - docker-asp.net-core-sdk
+        - asp.net-core-sdk-webapp
+        - asp.net-core-sdk-mount
+        - asp.net-core-sdk-hw
+
+    - name  : Tips
+      pages : 
+        - docker-php
+
+- title : ASP.NET Core
+  label : AspDotNetCore
+  sections : 
+    - name : Razor page
+      pages : 
+        - prepare-directory
+        - create-project
+        - add-model-setup
+        - add-model
+        - add-model-dockerfile
+
+    
+
+
+- title : Git
+  label : Git
+  sections : 
+    - name : Tips
+      pages : 
+        - pull-fork-origin
+        - remote-branch-checkout
+        - sparse-checkout
+        - sparse-checkout-submodule
+        - C-option
+
+
+
+- title    : openFrameworks
+  label    : OpenFrameworks
+  sections :
+    - name  : Tips
+      pages :
+        - transition_new
+        - multiwindow
+
+
+
+
+
+- title    : RaspberryPi
+  label    : RaspberryPi
+  sections :
+    - name  : Tips
+      pages :
+        - RaspberryPi-Recover
+
+    - name  : 関連記事
+      label : VirtualBox
+      pages :
+        - VirtualBox-Create-VM
+
+
+
+
+
+
+- title : VirtualBox
+  label : VirtualBox
+  sections :
+    - name  : Tips
+      pages :
+        - VirtualBox-Create-VM
+
+
+
+
+
+
+
+- title : JavaScript & jQuery
+  label : JavaScript
+  sections :
+    - name  : Memo
+      pages :
+        - array-foreach
+        - object-create
+        - inherit
+        - prototype
+
+
+
+
+
+
+- title : libCurl & libOAuth
+  label : LibCurl
+  sections :
+    - name  : Tips
+      pages : 
+        - twitter-streaming-api
+
+
+
+
+
+
+- title : C++
+  label : Cpp
+  sections :
+    - name  : C++11 Tips
+      pages :
+        - template-template-parameter
+        - is-same-base-of
+        - private-using
+        - enum-class-operator
+        - template-specialize-inherit
+        - variadic-template
+        - using_error
+        - cast_specialization
+        - has_trivial_assign
+        - lambda
+
+
+    - name  : Error handling
+      pages :
+        - error-oldschool
+        - error-trycatch
+        - error-trycatch-constructor
+        - error-trycatch-member
+        - error-trycatch-other
+        - error-summary
+
+
+    - name  : Tips
+      pages :
+        - overload-cast
+        - accessor
+        - Explicit-specialization-of-after-instantiation
+        - part-of-specialize
+        - template-specialization
+        - inherited-interface
+        - call-base-class-function
+        - not-definit-const-static-in-header
+        - pure-virtual-definition
+        - interface-test
+
+
+
+
+
+- title : Vim & VimR
+  label : VimR
+  sections :
+    - name  : Tips
+      pages :
+        - localplugin-toml
+        - Vim-neosnippet-cpp
+        - Vim-structure
+        - VimR-dein-XDG
+        - VimR-dein-autodate
+        - VimR-dein-toml
+        - VimR-deoplete
+        - VimR-env
+        - VimR-ftplugin
+
+
+
+
+
+- title : Mac Tips
+  label : Mac
+  sections :
+    - name : Homebrew
+      pages :
+        - homebrew-nodenv
+        - homebrew-pyenv
+        - homebrew-applications
+
+    - name : Homebrew 関連記事
+      label : Jekyll
+      pages :
+        - rbenv-homebrew
+
+
+    - name : Tips
+      pages :
+        - TimeMachine-transfer2
+        - catalina-zsh
+        - TimeMachine-transfer
+        - motu-mixer
+        - mac-screencapture-gif
+        - thunderbolt3-pci-nonsupport
+        - csrutil
+        - exhibit-check
+        - Mac-USB
+
+    - name  : Linux関連
+      label : Linux
+      pages : 
+        - macfanctld
+        - screen-share
+
+
+
+
+- title : Linux
+  label : Linux
+  sections :
+    - name  : bmdtools & avconv関係
+      pages : 
+        - hls_cron
+        - disown_nohup
+        - avconv-hls-bmdtools
+        - avconv-hls-webcam
+        - avconv-usage
+        - avconv-alsa
+        - alsa-usage
+        - webcam-usage
+        - bmdcapture-usage
+        - avconv
+        - bmdtools
+        - blackmagic-minirecorder
+
+    - name  : Tips
+      pages :
+        - ld-library-path
+        - make-uninstall
+        - macfanctld
+        - screen-share
+
+
+- title : Arduino & ESP32
+  label : Arduino
+  sections : 
+    - name : ESP32
+      pages :
+        - esp32-qmc5883l-status
+        - esp32-qmc5883l-basic
+        - esp32-qmc5883l
+        - esp32-i2cscan
+        - fritzing-part
+        - mac-esp32-dev
+        - esp32-pinmap
+        - esp32-2.2LCD
+
+    - name : Arduino
+      pages :
+        - avr-isp
+
+- title : 数学関係
+  label : Math
+  sections : 
+    - name : 機械学習関係
+      pages :
+        - deep_learning
+    - name : 指数、対数関係
+      pages : 
+        - log_exp
+        - naipier
+    - name : 総和関係
+      pages :
+        - sum
+    - name : 微分関係
+      pages :
+        - derivative
+
+- title : Memorandum
+  label : Memo
+  sections :
+    - name : 
+      pages :
+        - log-power
+        - bouldering
+
