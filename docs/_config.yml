@@ -21,10 +21,10 @@ collections:
     output: true
 defaults:
 - scope:
-    path: docs
-    type: docs
+    path: business
+    type: business
   values:
-    layout: docs
+    layout: business
 #- scope:
 #    path: ''
 #  values:
